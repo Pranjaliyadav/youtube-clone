@@ -21,7 +21,7 @@ useEffect(()=>{
 
   useEffect(() => {
     dispatch(getHomePageVideos(false));
-      console.log(videos)
+      // console.log(videos)
   }, [dispatch]);
 
   return (

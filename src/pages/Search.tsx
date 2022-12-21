@@ -42,11 +42,13 @@ export default function Search() {
               loader={<Spinner />}
               height={600}
             >
-              <div className="my-5">
-                {videos.map((item: HomePageVideos) => {
-                  return <SearchCard data={item} key={item.videoId} />;
-                })}
-              </div>
+              {videos.map((item: HomePageVideos) => {
+                return (
+                  <div className="my-5">
+                    <SearchCard data={item} key={item.videoId} />
+                  </div>
+                );
+              })}
             </InfiniteScroll>
           </div>
         ) : (
