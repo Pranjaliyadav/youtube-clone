@@ -3,11 +3,11 @@
 Demo : https://lambent-donut-b2d9e3.netlify.app/
 
 Features - 
-Your favourite videos directly fetched from YouTube Data API
-Scroll through your videos and watch anything
-Infinite Scroll provided
-Video description toggle
-Search anything you want to watch
+Your favourite videos directly fetched from YouTube Data API,
+Scroll through your videos and watch anything,
+Infinite Scroll provided,
+Video description toggle,
+Search anything you want to watch.
 
 Tech used - Typescript, React Router for routing, Redux toolkit for state management, tailwind css for styling
 
